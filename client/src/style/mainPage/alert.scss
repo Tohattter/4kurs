@@ -1,0 +1,21 @@
+.alert {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  position: absolute;
+  left: 2em;
+  top: -3.5em;
+}
+
+.alert-enter {
+  opacity: 0;
+}
+
+.alert-enter-active {
+  opacity: 1;
+  transition: opacity 150ms ease-out;
+}
+
+.alert-exit-active {
+  opacity: 0;
+  transition: opacity 350ms ease-in;
+}

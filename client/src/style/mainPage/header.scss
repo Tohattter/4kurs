@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #26EB9F;
+
+  button {
+    margin: 1em;
+  }
+
+  .logo {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+    .logo-img {
+      width: 1.5em;
+      height: 1.5em;
+      margin: 0.5em;
+    }
+  
+    .logo-text {
+      margin: 0;
+    }
+  }
+}

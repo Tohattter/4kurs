@@ -1,0 +1,63 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+
+  .todo-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+
+    .todo-checkbox {
+      transform: scale(1.5);
+      margin: 0.5em;
+    }
+
+    .todo-create-date {
+      color: silver;
+      font-size: 0.7rem;
+      margin: 0.5em 0.5em 0 0.5em;
+      font-weight: normal;
+    }
+  }
+
+  .checked {
+    color: #F4192D;
+    text-decoration: line-through;
+  }
+  
+  .link-img-close {
+    width: 1em;
+    height: 1em;
+  }
+
+  .todo-main:hover {
+    cursor: pointer;
+  }
+}
+
+.todo-enter-active {
+  animation: todo 800ms ease-in reverse;
+}
+
+.todo-exit-active {
+  animation: todo 800ms ease-out;
+}
+
+@keyframes todo {
+  0% {
+    transform: translateX(0);
+  }
+
+  30% {
+    transform: translateX(15px);
+    opacity: .7;
+  }
+
+  100% {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+}

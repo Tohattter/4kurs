@@ -1,0 +1,5 @@
+{
+  "port": "3000",
+  "mongoURI": "mongodb://localhost/todo_list",
+  "jwtSecret": "superSecret"
+}
