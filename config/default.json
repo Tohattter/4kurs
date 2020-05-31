@@ -1,5 +1,5 @@
 {
   "port": "3000",
-  "mongoURI": "mongodb://<dbuser>:<dbpassword>@ds161780.mlab.com:61780/heroku_mzv7tkqx",
+  "mongoURI": "mongodb://Toxatt:1234toxa@ds135068.mlab.com:35068/heroku_k23729f4",
   "jwtSecret": "superSecret"
 }
