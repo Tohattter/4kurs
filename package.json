@@ -58,9 +58,11 @@
     "react-transition-group": "^4.3.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
+    "serve-favicon": "^2.5.0",
     "validator": "^13.0.0"
   },
   "engines": {
-    "node": ">=13.9.0"
+    "node": ">=13.9.0",
+    "npm": ">=6.13.7"
   }
 }
