@@ -36,7 +36,7 @@ function webpackDevMiddleware() {
 }
 
 async function start() {
-  const PORT = process.env.PORT || 3000
+  
  //Поключение к базе данных
   try {
     await mongoose.connect(config.get('mongoURI'), {
@@ -46,8 +46,8 @@ async function start() {
       useFindAndModify: false
     })
 //Сообщение о подключение к серверу и об ошибке если такая есть ! 
-app.listen(process.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+http.listen((process.env.PORT || 3000), function(){
+  console.log('listening on *:3000');
 });
   } catch (e) {
     console.log('Server Error', e.message)
