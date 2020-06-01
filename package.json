@@ -7,8 +7,7 @@
     "server": "nodemon server.js",
     "dev": "webpack --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js",
-    "start": "npm run build  ",
-    "run":"cross-env NODE_ENV=prod node server.js"
+    "start": "npm run build && cross-env NODE_ENV=prod node server.js"
   },
   "browserslist": "> .5% and last 2 versions",
   "author": "Berdnik Anton",
